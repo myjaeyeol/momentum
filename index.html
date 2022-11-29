@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>나만의 동기부여 홈화면 만들기</title>
+
+    <script src="index.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2PQyJkH8Z55tKsPbbK0wDsoR4dg-KgdQ-E_wskgZ3wVYTfyyX1uz2jl0QNGQpN_4JCsQMawxUyFQ8BOoaUg2wPZZehaZJptJ6Zjsd5-u43Pr37lboVu97qSZXO2m6Nk5su-hFpcF-lChnicj18-N9cTxdcAWPf03vrHhImgkGQziJ4rl7nYukxPicGQ/s1600/IMG_0390.jpg");
+            background-position: center;
+
+            color: white;
+        }
+
+        .time {
+            font-size: 90px;
+            font-weight: bold;
+        }
+
+        .introduce {
+            font-size: 60px;
+        }
+
+        .today {
+            font-size: 40px;
+        }
+
+        .author {
+            font-size: 25px;
+            font-style: italic;
+        }
+
+        .file {
+            font-size: 15px;
+        }
+
+        .main {
+            width: 100vw;
+            height: 80vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .end {
+            width: 100vw;
+            height: 20vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+
+    <script>
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <div id="time" class="time">:</div>
+        <div class="introduce">Hello, My yeol</div>
+        <div class="today">지영이랑 북촌 데이트</div>
+    </div>
+    <div class="end">
+        <div id="author" class="author"></div>
+        <div id="file" class="file"></div>
+    </div>
+</body>
+
+</html>
